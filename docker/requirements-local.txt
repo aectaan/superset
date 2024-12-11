@@ -1,0 +1,3 @@
+pyarrow==14.0.2
+flightsql-dbapi==0.2.2
+adbc-driver-flightsql==1.3.0

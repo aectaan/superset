@@ -73,3 +73,9 @@ It is possible to run Superset in non-development mode by using [`docker-compose
 ## Resource Constraints
 
 If you are attempting to build on macOS and it exits with 137 you need to increase your Docker resources. See instructions [here](https://docs.docker.com/docker-for-mac/#advanced) (search for memory)
+
+## Connection
+datafusion+flightsql://user:pass@host.docker.internal:port?insecure=True
+
+## Version
+Last checked with image-tag and TAG=3.1.1
